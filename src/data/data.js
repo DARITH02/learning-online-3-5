@@ -1,0 +1,55 @@
+import Ai_p1 from "../assets/images/ai-1.jpg";
+import Ai_p2 from "../assets/images/ai-2.webp";
+
+export const courses = [
+  {
+    id: 1,
+    title: "The AI Engineer Course 2026: Complete AI Engineer Bootcamp",
+    description: "abc",
+    instructor: "Jonh",
+    price: 59.99,
+    rate: 4,
+    view: 1200,
+    img: Ai_p1,
+  },
+  {
+    id: 2,
+    title: "Intro to AI Agents and Agentic AI",
+    description: "abc 2",
+    instructor: "Jonh 2",
+    price: 19.99,
+    rate: 3,
+    view: 12003,
+    img: Ai_p2,
+  },
+  {
+    id: 2,
+    title: "3Web Development Bootcampt 2",
+    description: "abc 2",
+    instructor: "Jonh 2",
+    price: 1300,
+    rate: 3,
+    view: 12003,
+    img: "123.jpg",
+  },
+  {
+    id: 2,
+    title: "Web Development Bootcampt 2",
+    description: "abc 2",
+    instructor: "Jonh 2",
+    price: 1300,
+    rate: 3,
+    view: 12003,
+    img: "123.jpg",
+  },
+  {
+    id: 2,
+    title: "Web Development Bootcampt 2",
+    description: "abc 2",
+    instructor: "Jonh 2",
+    price: 1300,
+    rate: 3,
+    view: 12003,
+    img: "123.jpg",
+  },
+];

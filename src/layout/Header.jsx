@@ -54,7 +54,7 @@ const Header = () => {
 
           <div
             className={`h-screen w-4/5 absolute bg-gray-50 top-16 duration-200 transition-all ease-in-out shadow-2xl ${
-              menuOpen ? "right-0" : "-right-full md:hidden"
+              menuOpen ? "right-0" : "-right-full hidden"
             }`}
           >
             <ul className="px-3 py-2.5">
