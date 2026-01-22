@@ -1,6 +1,7 @@
 import React from "react";
 import { FcAbout } from "react-icons/fc";
 import { HiOutlineHome } from "react-icons/hi";
+import { IoIosContacts } from "react-icons/io";
 import { IoMenuSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -28,6 +29,15 @@ const Header = () => {
                 >
                   <HiOutlineHome className="text-xl" />
                   Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={"/contact"}
+                  className="flex gap-1.5 items-center text-lg font-medium"
+                >
+                  <IoIosContacts className="text-xl" />
+                  Contact
                 </Link>
               </li>
               <li>
@@ -67,6 +77,14 @@ const Header = () => {
                   className="hover:bg-blue-100 duration-150 transition-all block py-1.5 px-2  rounded-md"
                 >
                   Home
+                </Link>
+              </li>
+              <li className="mb-1.5 border-b-gray-300 border-b">
+                <Link
+                  to={"/"}
+                  className="hover:bg-blue-100 duration-150 transition-all block py-1.5 px-2  rounded-md"
+                >
+                  Contact
                 </Link>
               </li>
               <li className="mb-1.5 border-b-gray-300 border-b">
