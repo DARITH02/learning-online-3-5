@@ -5,7 +5,7 @@ export const courses = [
   {
     id: 1,
     title: "The AI Engineer Course 2026: Complete AI Engineer Bootcamp",
-    description: "abc",
+    description: "AI Engineers are best suited to thrive in the age of AI. It helps businesses utilize Generative AI by building AI-driven applications on top of their existing websites, apps, and databases. Therefore, it’s no surprise that the demand for AI Engineers has been surging in the job marketplace.",
     instructor: "Jonh",
     price: 59.99,
     rate: 4,
