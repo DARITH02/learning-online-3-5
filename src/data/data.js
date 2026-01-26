@@ -23,7 +23,7 @@ export const courses = [
     img: Ai_p2,
   },
   {
-    id: 2,
+    id: 3,
     title: "3Web Development Bootcampt 2",
     description: "abc 2",
     instructor: "Jonh 2",
@@ -33,7 +33,7 @@ export const courses = [
     img: "123.jpg",
   },
   {
-    id: 2,
+    id: 4,
     title: "Web Development Bootcampt 2",
     description: "abc 2",
     instructor: "Jonh 2",
@@ -43,7 +43,7 @@ export const courses = [
     img: "123.jpg",
   },
   {
-    id: 2,
+    id: 5,
     title: "Web Development Bootcampt 2",
     description: "abc 2",
     instructor: "Jonh 2",

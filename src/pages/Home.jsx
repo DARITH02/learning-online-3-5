@@ -3,6 +3,7 @@ import { FaStar } from "react-icons/fa";
 import Cart from "../components/Cart";
 
 import { courses } from "../data/data";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -192,12 +193,12 @@ const Home = () => {
          gap-5 md:px-2 md:py-3"
         >
           {courses.map((c) => (
-            <Cart title={c.title}
-                   price={c.price} 
-                   rate={c.rate} 
-                   img={c.img} 
-                   
-                   />
+            
+            <Link to={`/detail/${c['id']}`}>
+
+              <Cart title={c.title} price={c.price} rate={c.rate} img={c.img} />
+           
+            </Link>
           ))}
         </div>
       </div>
